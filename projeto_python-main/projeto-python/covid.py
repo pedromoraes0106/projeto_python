@@ -156,7 +156,6 @@ pdf.image(name="casos.png", x=0, y=100, w=200)
 
 pdf.add_page()
 pdf.image(name="obitos.png", x=0, y=100, w=200)
-pdf.cell(w=0, h=8, txt="")
 
 pdf.output("relatorio.pdf")
 print("PDF criado")
