@@ -109,14 +109,14 @@ dia= planilha['Data']
 casos= planilha['Novos casos']
 obitos= planilha['Óbitos']
 
-plt.title("Novos casos dos 10 primeiros dias de janeiro - 2022")
+plt.title("Casos nos 10 primeiros dias 1 mês após último natal e ano novo")
 plt.bar(dia, casos, color='blue', width=0.5)
 plt.grid()
 plt.savefig("casos.png")
 plt.show()
 
 
-plt.title("Óbitos nos 10 primeiros dias de janeiro - 2022")
+plt.title("Óbitos nos 10 primeiros dias 1 mês após último natal e ano novo")
 plt.bar(dia, obitos, color='red', width=0.5)
 plt.grid()
 plt.savefig("obitos.png")
